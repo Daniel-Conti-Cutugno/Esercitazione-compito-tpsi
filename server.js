@@ -1,8 +1,6 @@
-const exp = require("constants");
 const sqlite = require("sqlite3");
 const db = new sqlite.Database("compito.db");
 const express = require("express");
-const { error } = require("console");
 const app = express();
 const port = 3333;
 app.use(express.json());
